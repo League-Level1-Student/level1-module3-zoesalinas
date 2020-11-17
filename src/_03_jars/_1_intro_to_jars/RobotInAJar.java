@@ -1,5 +1,6 @@
 package _03_jars._1_intro_to_jars;
 
+import org.jointheleague.graphical.robot.Robot;
 
 public class RobotInAJar {
 	
@@ -13,7 +14,8 @@ public class RobotInAJar {
 	
 	/* 2.   Now declare a Robot variable and create a new Robot  */
 Robot robot = new Robot();
-	
+	public static void main(String[] args) {
+		
 	/* Even if you did not make any syntax errors, there should be a red line under the word Robot.
 	 * This is because the type Robot is not part of the basic Java language. If you want to use 
 	 * a Robot in your code, you must import the Robot class and all its code.   */
@@ -55,7 +57,7 @@ Robot robot = new Robot();
 	 * Select it. If all the red lines have disappeared, you can now complete the draw method below.
 	 * Run the program from the RobotInAJarRunner class and a shape should be drawn.
 	 */
-	
+	}
 	public void draw() {
 		/*** Write code to make your robot draw a shape here ****/
 		
